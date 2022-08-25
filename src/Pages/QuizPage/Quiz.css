@@ -1,0 +1,76 @@
+:root {
+    --theam-color: #a92175;
+    --theam-color-dark: #610530;
+    --color-dark: #303030;
+    --color-orange: #b0170c;
+    
+}
+
+button {
+    background-color: var(--theam-color-dark);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 10px;
+  
+}
+
+button:hover {
+    background-color: var(--theam-color);
+}
+
+button:focus {
+    outline: none;
+    background-color: var(--color-dark);
+} 
+.quiz-Ques {
+
+   
+    width: 500px;
+    padding: 5px;
+    border-radius: 15px;
+   
+}
+
+.ans-Option {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px;
+  
+}
+
+.ans-Option>button{
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+
+
+
+.quiz-Box{
+    min-height: 60vh;
+    width: 700px;
+    border: 1px solid rgb(217, 32, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-Start{
+    border: 1px solid;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.game-Over-btn{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: var(--color-orange);
+}

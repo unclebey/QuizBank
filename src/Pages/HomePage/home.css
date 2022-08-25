@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+:root {
+    --big-font-color: #250202;
+    --theam-color: #ed448d;
+}
+
+body {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+
+.big-font {
+   
+    color: var(--big-font-color);
+    text-decoration: underline var(--theam-color);
+}
+
+.quiz-Card-Group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+#btn-Quiz-Category {
+
+    height: 8rem;
+    width: 18rem;
+    border-radius: 15px;
+}
+
+.home-Page-Img {
+    height: 20rem;
+    width: auto;
+}
+
+.img-Container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,61 @@
+* color variables */
+:root {
+    --light-theam-color: #edb7da;
+    --dark-theam-color: #a2176f;
+    --dark-color: #000000;
+    --light-color:#ffffff;
+}
+
+/* *** */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logo-img {
+    width: auto;
+    height: 2rem;
+}
+
+.nav-bar-icons-list,
+.nav-bar-links-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-bar-links-list>li>a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.nav-bar-links-list>li>a:hover {
+    cursor: pointer;
+    color: var(--dark-theam-color);
+    transition: color 0.5s;
+}
+
+.nav-bar-icons-list>li:hover {
+    cursor: pointer;
+    color: var(--dark-theam-color);
+    transition: color 0.5s;
+}
+
+#nav-Login {
+   
+    border: 1px solid var(--dark-theam-color);
+border-radius: 10px;
+padding: 5px;
+}
+
+
+#nav-Login:hover{
+    background-color: var(--dark-theam-color);
+   color: var(--light-color);
+}
+/* *** */

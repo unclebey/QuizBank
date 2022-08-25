@@ -1,0 +1,33 @@
+:root {
+  --fonnt-color-light: #ededed;
+  --play-btn: #f45cbf;
+  --play-btn-hover: #65086a;
+}
+
+#quiz-card-1,
+#quiz-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid var(--play-btn);
+  padding: 1rem;
+  height: 1rem max-content;
+
+  width: 20rem;
+  border-radius: 10px;
+  background: linear-gradient(var(--play-btn), white);
+}
+
+.btn-play {
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px;
+  letter-spacing: 1px;
+  background-color: var(--play-btn);
+}
+
+.btn-play:hover {
+  cursor: pointer;
+  background-color: var(--play-btn-hover);
+  transition: background-color 0.5s;
+}
